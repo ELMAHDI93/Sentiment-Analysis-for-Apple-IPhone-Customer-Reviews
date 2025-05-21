@@ -1,9 +1,8 @@
 # 📱 Sentiment Analysis for Apple iPhone Customer Reviews
 
 ## 👤 Author
-**El Mahdi El Alj (GH1033521)**  
-**Course:** Big Data Analytics (M508)  
-**Assignment:** Final Individual Assignment  
+** El Mahdi El Alj **  
+** Big Data Analytics **
 
 ---
 
