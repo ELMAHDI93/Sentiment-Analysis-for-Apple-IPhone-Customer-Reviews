@@ -113,5 +113,5 @@ def preprocess_text(text):
     tokens = [lemmatizer.lemmatize(word) for word in tokens]
     return ' '.join(tokens)
 
-📌 Conclusion
+ 📌 Conclusion
 This project demonstrates a full NLP pipeline for sentiment analysis using both traditional ML and transformer-based models. Despite the strong performance of DistilRoBERTa, simple models like Logistic Regression still provide excellent accuracy with minimal complexity.
