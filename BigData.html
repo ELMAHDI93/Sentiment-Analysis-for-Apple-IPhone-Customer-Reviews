@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>5fe9598c5a904357801f7acd1cbcf9c2</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="lj-jTl0TuZPz">
+<h1 id="el-mahdi-el-alj-gh1033521">EL MAHDI EL ALJ GH1033521</h1>
+<h1 id="big-data-analytics-m508">Big Data Analytics M508</h1>
+<h1 id="final-individual-assignment">Final Individual assignment</h1>
+<h1 id="sentiment-analysis-for-apple-iphone-customer-reviews">Sentiment
+Analysis for Apple IPhone Customer Reviews</h1>
+</div>
+<section id="business-problem" class="cell markdown" id="-t72OdwRue6g">
+<h1>Business Problem</h1>
+<p>Iphone Smartphone is the most popular phone in the world and Because
+of high number of competitors in the international market, customers
+feedback are very important for the compagny to understanding the
+customers satisfaction, and performance of the product.</p>
+<p>By Analysing large volume of customer reviews using sentiment
+analysis, we can classify the feedback in 3 section: positive, negative
+or neutral.</p>
+<p>For example analyzing negative feedback can help the compagny to
+define the arrea of improvement. By analyzing positive feedback we can
+identify the preference of the customers. By Analyzing negative feedback
+we can find what is the common complaints for the customers and how we
+can improve that in the futur, also it will provide as the evaluation of
+the customer experience and satisfaction.</p>
+<p>Goals of this analysis is to improve customer satisfaction score,
+understanding customers needs that can lead to increase benefit of the
+compagny.</p>
+<p>Why we choose sentiment analysis its not only to define if the
+feedbacks are positive or negative but also to understand what really
+people thing about the iphone product finding some issue to reduce
+dessatisfaction, or finding the best option that people like from the
+new iphone. with completing NLP pipeline we will be able to have answer
+for all this question.</p>
+</section>
+<section id="introduction" class="cell markdown" id="ezzpitk3ukmw">
+<h1>Introduction</h1>
+<p>customer feedback provide us the performace of the product and using
+sentiment analysis in machine learning, will atomates the process of
+classifing customer feedback, this project will demonstrate how to use
+sentiment analysis, to classify iphone customer review in positive,
+negative or neutral, using Python.</p>
+</section>
+<section id="import-the-necessary-librairies" class="cell markdown"
+id="uI3WZehlusCe">
+<h1>Import the necessary librairies</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-collapsed="true" id="MNZR32crl-_z"
+data-outputId="c8247d38-f9d8-4429-ad74-b06e33a9ff52">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install datasets</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: datasets in /usr/local/lib/python3.10/dist-packages (3.2.0)
+Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from datasets) (3.16.1)
+Requirement already satisfied: numpy&gt;=1.17 in /usr/local/lib/python3.10/dist-packages (from datasets) (1.26.4)
+Requirement already satisfied: pyarrow&gt;=15.0.0 in /usr/local/lib/python3.10/dist-packages (from datasets) (17.0.0)
+Requirement already satisfied: dill&lt;0.3.9,&gt;=0.3.0 in /usr/local/lib/python3.10/dist-packages (from datasets) (0.3.8)
+Requirement already satisfied: pandas in /usr/local/lib/python3.10/dist-packages (from datasets) (2.2.2)
+Requirement already satisfied: requests&gt;=2.32.2 in /usr/local/lib/python3.10/dist-packages (from datasets) (2.32.3)
+Requirement already satisfied: tqdm&gt;=4.66.3 in /usr/local/lib/python3.10/dist-packages (from datasets) (4.67.1)
+Requirement already satisfied: xxhash in /usr/local/lib/python3.10/dist-packages (from datasets) (3.5.0)
+Requirement already satisfied: multiprocess&lt;0.70.17 in /usr/local/lib/python3.10/dist-packages (from datasets) (0.70.16)
+Requirement already satisfied: fsspec&lt;=2024.9.0,&gt;=2023.1.0 in /usr/local/lib/python3.10/dist-packages (from fsspec[http]&lt;=2024.9.0,&gt;=2023.1.0-&gt;datasets) (2024.9.0)
+Requirement already satisfied: aiohttp in /usr/local/lib/python3.10/dist-packages (from datasets) (3.11.10)
+Requirement already satisfied: huggingface-hub&gt;=0.23.0 in /usr/local/lib/python3.10/dist-packages (from datasets) (0.27.0)
+Requirement already satisfied: packaging in /usr/local/lib/python3.10/dist-packages (from datasets) (24.2)
+Requirement already satisfied: pyyaml&gt;=5.1 in /usr/local/lib/python3.10/dist-packages (from datasets) (6.0.2)
+Requirement already satisfied: aiohappyeyeballs&gt;=2.3.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets) (2.4.4)
+Requirement already satisfied: aiosignal&gt;=1.1.2 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets) (1.3.2)
+Requirement already satisfied: async-timeout&lt;6.0,&gt;=4.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets) (4.0.3)
+Requirement already satisfied: attrs&gt;=17.3.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets) (24.3.0)
+Requirement already satisfied: frozenlist&gt;=1.1.1 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets) (1.5.0)
+Requirement already satisfied: multidict&lt;7.0,&gt;=4.5 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets) (6.1.0)
+Requirement already satisfied: propcache&gt;=0.2.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets) (0.2.1)
+Requirement already satisfied: yarl&lt;2.0,&gt;=1.17.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets) (1.18.3)
+Requirement already satisfied: typing-extensions&gt;=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub&gt;=0.23.0-&gt;datasets) (4.12.2)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.10/dist-packages (from requests&gt;=2.32.2-&gt;datasets) (3.4.0)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from requests&gt;=2.32.2-&gt;datasets) (3.10)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests&gt;=2.32.2-&gt;datasets) (2.2.3)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests&gt;=2.32.2-&gt;datasets) (2024.12.14)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in /usr/local/lib/python3.10/dist-packages (from pandas-&gt;datasets) (2.8.2)
+Requirement already satisfied: pytz&gt;=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas-&gt;datasets) (2024.2)
+Requirement already satisfied: tzdata&gt;=2022.7 in /usr/local/lib/python3.10/dist-packages (from pandas-&gt;datasets) (2024.2)
+Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil&gt;=2.8.2-&gt;pandas-&gt;datasets) (1.17.0)
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-collapsed="true" id="kwIERlzksLJ3"
+data-outputId="0ca898b6-8b50-4905-f7fc-165dc3c2a817">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nltk</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> Dataset</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> imblearn.over_sampling <span class="im">import</span> SMOTE</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.corpus <span class="im">import</span> stopwords</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.stem <span class="im">import</span> WordNetLemmatizer</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.tokenize <span class="im">import</span> word_tokenize</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.feature_extraction.text <span class="im">import</span> TfidfVectorizer</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score , precision_score, recall_score, f1_score</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> transformers</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> load_dataset</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>nltk.download(<span class="st">&#39;stopwords&#39;</span>)</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>nltk.download(<span class="st">&#39;punkt&#39;</span>)</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>nltk.download(<span class="st">&#39;wordnet&#39;</span>)</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>nltk.download(<span class="st">&#39;punkt_tab&#39;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package wordnet to /root/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt_tab to /root/nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="83">
+<pre><code>True</code></pre>
+</div>
+</div>
+<section id="loading-our-dataset-using-the-full-dataset"
+class="cell markdown" id="ucbWtYpguxQA">
+<h1>Loading our dataset using the full dataset</h1>
+</section>
+<div class="cell code" id="5-hI-zc9smZv">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_csv(<span class="st">&#39;/content/iphone.csv&#39;</span>)</span></code></pre></div>
+</div>
+<section id="explore-data" class="cell markdown" id="mDeB51f1WS0q">
+<h1>Explore data</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="MBfA133F2WNh" data-outputId="66f16372-5f67-491e-efd2-98c88a3d4c45">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.head(<span class="dv">20</span>))</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.tail(<span class="dv">20</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>   productAsin country        date  isVerified  ratingScore  \
+0   B09G9BL5CP   India  11-08-2024        True            4   
+1   B09G9BL5CP   India  16-08-2024        True            5   
+2   B09G9BL5CP   India  14-05-2024        True            4   
+3   B09G9BL5CP   India  24-06-2024        True            5   
+4   B09G9BL5CP   India  18-05-2024        True            5   
+5   B09G9BL5CP   India  14-05-2024        True            5   
+6   B09G9BL5CP   India  28-01-2024        True            5   
+7   B09G9BL5CP   India  01-03-2024        True            5   
+8   B09G9BL5CP   India  14-11-2023        True            4   
+9   B09G9BL5CP   India  03-02-2024        True            5   
+10  B09G9BL5CP   India  06-02-2022        True            5   
+11  B09G9BL5CP   India  06-07-2024        True            5   
+12  B09G9BL5CP   India  18-05-2024        True            5   
+13  B09G9BL5CP   India  11-03-2024        True            5   
+14  B09G9BL5CP   India  12-10-2023        True            4   
+15  B09G9BL5CP   India  11-03-2022        True            5   
+16  B09G9BL5CP   India  31-10-2023        True            3   
+17  B09G9BL5CP   India  29-11-2023        True            5   
+18  B09G9BL5CP   India  08-09-2022        True            5   
+19  B09G9BL5CP   India  14-02-2024        True            2   
+
+                                          reviewTitle  \
+0                                          No charger   
+1                                     iPhone 13 256GB   
+2                             Flip camera option nill   
+3                                             Product   
+4                                        Good product   
+5               Too smooth and effective battery life   
+6                                     Apple 13 256 GB   
+7                                                Good   
+8                                                Good   
+9                                           Excellent   
+10  Truly worth the money spent! Even if you go br...   
+11                                          I love it   
+12                                It’s a legit iPhone   
+13                                  Worth every penny   
+14                                              Nice.   
+15                                  Worth the product   
+16  It&#39;s been a week since I&#39;ve been using this phone   
+17                                              Great   
+18                          Same as shown in pictures   
+19                 My device is not working need help   
+
+                                    reviewDescription  \
+0   Every thing is good about iPhones, there&#39;s not...   
+1   It look so fabulous, I am android user switche...   
+2   I tried to flip camera while recording but no ...   
+3                                        100% genuine   
+4          Happy to get the iPhone 13 in Amazon offer   
+5                                            5 star 👍   
+6   Great Product... Nothing to say, as the Name A...   
+7                                     Good product 😀💯   
+8                                        Nice product   
+9                                   Excellent product   
+10  My honest review after going broke buying this...   
+11                                               Nice   
+12  It’s a perfect iPhone I highly recommend this ...   
+13  What I like about this phone is that it is qui...   
+14  I bought the product little expensive. Within ...   
+15  Though we talk a lot about high price for iPho...   
+16  Works just fine nothing special the camera is ...   
+17                                           Loved it   
+18  There’s no same day delivery Phone was deliver...   
+19  My device is not working (switched off)Iam not...   
+
+                                            reviewUrl  \
+0   https://www.amazon.in/gp/customer-reviews/R345...   
+1   https://www.amazon.in/gp/customer-reviews/R2HJ...   
+2   https://www.amazon.in/gp/customer-reviews/R3Y7...   
+3   https://www.amazon.in/gp/customer-reviews/R1P9...   
+4   https://www.amazon.in/gp/customer-reviews/R1XI...   
+5   https://www.amazon.in/gp/customer-reviews/R3J3...   
+6   https://www.amazon.in/gp/customer-reviews/R2ZM...   
+7   https://www.amazon.in/gp/customer-reviews/R1XF...   
+8   https://www.amazon.in/gp/customer-reviews/R2QA...   
+9   https://www.amazon.in/gp/customer-reviews/R322...   
+10  https://www.amazon.in/gp/customer-reviews/R1RO...   
+11  https://www.amazon.in/gp/customer-reviews/R66R...   
+12  https://www.amazon.in/gp/customer-reviews/R2S1...   
+13  https://www.amazon.in/gp/customer-reviews/R2B0...   
+14  https://www.amazon.in/gp/customer-reviews/R1BZ...   
+15  https://www.amazon.in/gp/customer-reviews/RUT3...   
+16  https://www.amazon.in/gp/customer-reviews/R2WH...   
+17  https://www.amazon.in/gp/customer-reviews/RZQ1...   
+18  https://www.amazon.in/gp/customer-reviews/R1ZG...   
+19  https://www.amazon.in/gp/customer-reviews/R2TD...   
+
+                               reviewedIn                       variant  \
+0     Reviewed in India on 11 August 2024  Colour: MidnightSize: 256 GB   
+1     Reviewed in India on 16 August 2024  Colour: MidnightSize: 256 GB   
+2        Reviewed in India on 14 May 2024  Colour: MidnightSize: 256 GB   
+3       Reviewed in India on 24 June 2024  Colour: MidnightSize: 256 GB   
+4        Reviewed in India on 18 May 2024  Colour: MidnightSize: 256 GB   
+5        Reviewed in India on 14 May 2024  Colour: MidnightSize: 256 GB   
+6    Reviewed in India on 28 January 2024  Colour: MidnightSize: 256 GB   
+7       Reviewed in India on 1 March 2024  Colour: MidnightSize: 256 GB   
+8   Reviewed in India on 14 November 2023  Colour: MidnightSize: 256 GB   
+9    Reviewed in India on 3 February 2024  Colour: MidnightSize: 256 GB   
+10   Reviewed in India on 6 February 2022      Colour: PinkSize: 256 GB   
+11       Reviewed in India on 6 July 2024      Colour: PinkSize: 256 GB   
+12       Reviewed in India on 18 May 2024      Colour: PinkSize: 256 GB   
+13     Reviewed in India on 11 March 2024      Colour: PinkSize: 256 GB   
+14   Reviewed in India on 12 October 2023      Colour: PinkSize: 256 GB   
+15     Reviewed in India on 11 March 2022      Colour: PinkSize: 256 GB   
+16   Reviewed in India on 31 October 2023      Colour: PinkSize: 256 GB   
+17  Reviewed in India on 29 November 2023      Colour: PinkSize: 256 GB   
+18  Reviewed in India on 8 September 2022      Colour: PinkSize: 256 GB   
+19  Reviewed in India on 14 February 2024      Colour: PinkSize: 256 GB   
+
+   variantAsin  
+0   B09G9BQS98  
+1   B09G9BQS98  
+2   B09G9BQS98  
+3   B09G9BQS98  
+4   B09G9BQS98  
+5   B09G9BQS98  
+6   B09G9BQS98  
+7   B09G9BQS98  
+8   B09G9BQS98  
+9   B09G9BQS98  
+10  B09G9HRYFZ  
+11  B09G9HRYFZ  
+12  B09G9HRYFZ  
+13  B09G9HRYFZ  
+14  B09G9HRYFZ  
+15  B09G9HRYFZ  
+16  B09G9HRYFZ  
+17  B09G9HRYFZ  
+18  B09G9HRYFZ  
+19  B09G9HRYFZ  
+     productAsin country        date  isVerified  ratingScore  \
+3042  B09G9D8KRQ   India  18-06-2024        True            1   
+3043  B09G9D8KRQ   India  28-06-2024        True            1   
+3044  B09G9D8KRQ   India  03-10-2023        True            1   
+3045  B09G9D8KRQ   India  09-12-2023        True            2   
+3046  B09G9D8KRQ   India  16-06-2022        True            3   
+3047  B09G9D8KRQ   India  30-05-2024        True            1   
+3048  B09G9D8KRQ   India  28-11-2023        True            1   
+3049  B09G9D8KRQ   India  08-10-2023        True            2   
+3050  B09G9D8KRQ   India  10-06-2024        True            1   
+3051  B09G9D8KRQ   India  11-09-2022        True            3   
+3052  B09G9D8KRQ   India  24-06-2023        True            2   
+3053  B09G9D8KRQ   India  29-06-2023        True            1   
+3054  B09G9D8KRQ   India  11-01-2024        True            1   
+3055  B09G9D8KRQ   India  11-08-2022        True            3   
+3056  B09G9D8KRQ   India  21-02-2024        True            1   
+3057  B09G9D8KRQ   India  11-10-2023        True            1   
+3058  B09G9D8KRQ   India  14-10-2022        True            2   
+3059  B09G9D8KRQ   India  24-02-2022        True            3   
+3060  B09G9D8KRQ   India  16-10-2023        True            1   
+3061  B09G9D8KRQ   India  11-11-2023        True            1   
+
+                                            reviewTitle  \
+3042                                          Don’t buy   
+3043                                        Bad adopter   
+3044  Super Disappointed: Completely stopped working...   
+3045                                         Camera osm   
+3046                      missing earphone and charger😅   
+3047                             Iphone green line issu   
+3048                                        Overheating   
+3049                               Packing are not good   
+3050                                        Box damaged   
+3051  Key  tab is not working properly, need to chan...   
+3052                                          Overrated   
+3053  Got a defective item or an old item. Stopped w...   
+3054                                       Over heating   
+3055                           Not justified with price   
+3056                          Phone display not working   
+3057                Very bad experience with i phone 13   
+3058                  not happy with this apple product   
+3059                                         Good phone   
+3060                                  Battery discharge   
+3061                  Batter power needs to be improved   
+
+                                      reviewDescription  \
+3042  Don’t buy any one this is device is getting ve...   
+3043  Adopter works only 20 days when warranty time ...   
+3044  This was my first iPhone purchase and it was w...   
+3045    battery poor,build quality ok,battery very poor   
+3046  overall good product but somewhere price sucks...   
+3047  After one year,, green line came. Display problem   
+3048  It is a brand new phone and it is overheating ...   
+3049  Product ki packing good nhi thi but phone is o...   
+3050                                        Seal broken   
+3051  iPhone is not working properly screen tuch sen...   
+3052  Touchpad is not working properly. Apple is a o...   
+3053  Spent 70000 rupees trusting that the product w...   
+3054  Mobile got over heat automatically and turned ...   
+3055      I faced heating issues, bulky not recommended   
+3056                    Phone display not working.Fraud   
+3057  Useless phon never buy this heat n useless cam...   
+3058  iam not happy with this product why because ch...   
+3059                                         Good phone   
+3060  While charging mobile it&#39;s getting so hot even...   
+3061  Battery power is be very bad need to chat on d...   
+
+                                              reviewUrl  \
+3042  https://www.amazon.in/gp/customer-reviews/R3RJ...   
+3043  https://www.amazon.in/gp/customer-reviews/R2CP...   
+3044  https://www.amazon.in/gp/customer-reviews/RY07...   
+3045  https://www.amazon.in/gp/customer-reviews/R2T4...   
+3046  https://www.amazon.in/gp/customer-reviews/R16I...   
+3047  https://www.amazon.in/gp/customer-reviews/R95M...   
+3048  https://www.amazon.in/gp/customer-reviews/R1A4...   
+3049  https://www.amazon.in/gp/customer-reviews/RK81...   
+3050  https://www.amazon.in/gp/customer-reviews/R2XU...   
+3051  https://www.amazon.in/gp/customer-reviews/R10S...   
+3052  https://www.amazon.in/gp/customer-reviews/RBRK...   
+3053  https://www.amazon.in/gp/customer-reviews/R79C...   
+3054  https://www.amazon.in/gp/customer-reviews/R3PP...   
+3055  https://www.amazon.in/gp/customer-reviews/RHLD...   
+3056  https://www.amazon.in/gp/customer-reviews/RA91...   
+3057  https://www.amazon.in/gp/customer-reviews/R10O...   
+3058  https://www.amazon.in/gp/customer-reviews/R2FW...   
+3059  https://www.amazon.in/gp/customer-reviews/R2C7...   
+3060  https://www.amazon.in/gp/customer-reviews/R3K0...   
+3061  https://www.amazon.in/gp/customer-reviews/R2QO...   
+
+                                  reviewedIn  \
+3042       Reviewed in India on 18 June 2024   
+3043       Reviewed in India on 28 June 2024   
+3044     Reviewed in India on 3 October 2023   
+3045    Reviewed in India on 9 December 2023   
+3046       Reviewed in India on 16 June 2022   
+3047        Reviewed in India on 30 May 2024   
+3048   Reviewed in India on 28 November 2023   
+3049     Reviewed in India on 8 October 2023   
+3050       Reviewed in India on 10 June 2024   
+3051  Reviewed in India on 11 September 2022   
+3052       Reviewed in India on 24 June 2023   
+3053       Reviewed in India on 29 June 2023   
+3054    Reviewed in India on 11 January 2024   
+3055     Reviewed in India on 11 August 2022   
+3056   Reviewed in India on 21 February 2024   
+3057    Reviewed in India on 11 October 2023   
+3058    Reviewed in India on 14 October 2022   
+3059   Reviewed in India on 24 February 2022   
+3060    Reviewed in India on 16 October 2023   
+3061   Reviewed in India on 11 November 2023   
+
+                                variant variantAsin  
+3042           Colour: PinkSize: 128 GB  B09G9FPGTN  
+3043           Colour: PinkSize: 128 GB  B09G9FPGTN  
+3044           Colour: PinkSize: 128 GB  B09G9FPGTN  
+3045           Colour: PinkSize: 128 GB  B09G9FPGTN  
+3046           Colour: PinkSize: 128 GB  B09G9FPGTN  
+3047           Colour: PinkSize: 128 GB  B09G9FPGTN  
+3048           Colour: PinkSize: 128 GB  B09G9FPGTN  
+3049           Colour: PinkSize: 128 GB  B09G9FPGTN  
+3050           Colour: PinkSize: 128 GB  B09G9FPGTN  
+3051           Colour: PinkSize: 128 GB  B09G9FPGTN  
+3052  Colour: (PRODUCT) REDSize: 128 GB  B09G99CW2N  
+3053  Colour: (PRODUCT) REDSize: 128 GB  B09G99CW2N  
+3054  Colour: (PRODUCT) REDSize: 128 GB  B09G99CW2N  
+3055  Colour: (PRODUCT) REDSize: 128 GB  B09G99CW2N  
+3056  Colour: (PRODUCT) REDSize: 128 GB  B09G99CW2N  
+3057  Colour: (PRODUCT) REDSize: 128 GB  B09G99CW2N  
+3058  Colour: (PRODUCT) REDSize: 128 GB  B09G99CW2N  
+3059  Colour: (PRODUCT) REDSize: 128 GB  B09G99CW2N  
+3060  Colour: (PRODUCT) REDSize: 128 GB  B09G99CW2N  
+3061  Colour: (PRODUCT) REDSize: 128 GB  B09G99CW2N  
+</code></pre>
+</div>
+</div>
+<section id="choosing-the-necessary-columns" class="cell markdown"
+id="WenOJhx_uyjM">
+<h1>Choosing the necessary columns</h1>
+</section>
+<div class="cell code" id="HnHfebiMsnt9">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data[[<span class="st">&#39;reviewDescription&#39;</span>, <span class="st">&#39;ratingScore&#39;</span>]]</span></code></pre></div>
+</div>
+<section id="checking-for-missing-values" class="cell markdown"
+id="pE-pna1Ku5ao">
+<h1>Checking for missing values</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="QK1TW46-ssH3" data-outputId="9b371393-d0d1-4402-a687-6df16d70c8bb">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>data.dropna(subset<span class="op">=</span>[<span class="st">&#39;reviewDescription&#39;</span>], inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.head(<span class="dv">20</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                                    reviewDescription  ratingScore
+0   Every thing is good about iPhones, there&#39;s not...            4
+1   It look so fabulous, I am android user switche...            5
+2   I tried to flip camera while recording but no ...            4
+3                                        100% genuine            5
+4          Happy to get the iPhone 13 in Amazon offer            5
+5                                            5 star 👍            5
+6   Great Product... Nothing to say, as the Name A...            5
+7                                     Good product 😀💯            5
+8                                        Nice product            4
+9                                   Excellent product            5
+10  My honest review after going broke buying this...            5
+11                                               Nice            5
+12  It’s a perfect iPhone I highly recommend this ...            5
+13  What I like about this phone is that it is qui...            5
+14  I bought the product little expensive. Within ...            4
+15  Though we talk a lot about high price for iPho...            5
+16  Works just fine nothing special the camera is ...            3
+17                                           Loved it            5
+18  There’s no same day delivery Phone was deliver...            5
+19  My device is not working (switched off)Iam not...            2
+</code></pre>
+</div>
+</div>
+<section id="sentiment-labels" class="cell markdown" id="sqxFFypUDUqG">
+<h1>Sentiment Labels</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="18iC5Rm2sl8b" data-outputId="7d40b67c-68e9-425b-d776-88c94aa51677">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> map_rating_to_sentiment(rating):</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> rating <span class="op">&gt;=</span> <span class="dv">4</span>:</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;positive&#39;</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> rating <span class="op">&lt;=</span> <span class="dv">2</span>:</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;negative&#39;</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;neutral&#39;</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;sentiment&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;ratingScore&#39;</span>].<span class="bu">apply</span>(map_rating_to_sentiment)</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data[[<span class="st">&#39;reviewDescription&#39;</span>, <span class="st">&#39;sentiment&#39;</span>]]</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.head(<span class="dv">20</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                                    reviewDescription sentiment
+0   Every thing is good about iPhones, there&#39;s not...  positive
+1   It look so fabulous, I am android user switche...  positive
+2   I tried to flip camera while recording but no ...  positive
+3                                        100% genuine  positive
+4          Happy to get the iPhone 13 in Amazon offer  positive
+5                                            5 star 👍  positive
+6   Great Product... Nothing to say, as the Name A...  positive
+7                                     Good product 😀💯  positive
+8                                        Nice product  positive
+9                                   Excellent product  positive
+10  My honest review after going broke buying this...  positive
+11                                               Nice  positive
+12  It’s a perfect iPhone I highly recommend this ...  positive
+13  What I like about this phone is that it is qui...  positive
+14  I bought the product little expensive. Within ...  positive
+15  Though we talk a lot about high price for iPho...  positive
+16  Works just fine nothing special the camera is ...   neutral
+17                                           Loved it  positive
+18  There’s no same day delivery Phone was deliver...  positive
+19  My device is not working (switched off)Iam not...  negative
+</code></pre>
+</div>
+</div>
+<section id="data-visualization" class="cell markdown"
+id="jLAw_jC6vBBZ">
+<h1>Data Visualization</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:380}"
+id="dIa0j9qtON66" data-outputId="34aaddce-bb23-4fff-e4a0-31d606ae8414">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>rating_counts <span class="op">=</span> data[<span class="st">&#39;sentiment&#39;</span>].value_counts()</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">5</span>, <span class="dv">3</span>))</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>rating_counts.plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Rating Scores&#39;</span>)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Rating Score&#39;</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Number of Reviews&#39;</span>)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_900a6a9887f74e7c9303c09416e6c404/91e92cc1f60ab25a95212ff8c5e7bd050c479a6d.png" /></p>
+</div>
+</div>
+<section id="distribution-of-rating-scores-using-pie-chart"
+class="cell markdown" id="ocrQeCCwvCVY">
+<h1>Distribution of Rating scores using pie chart</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:444}"
+id="S99LpA9isyhP" data-outputId="4a5c19e8-5593-487d-af83-c6d732a5336f">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">5</span>, <span class="dv">5</span>))</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>plt.pie(rating_counts, labels<span class="op">=</span>rating_counts.index, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>, startangle<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Rating Scores&#39;</span>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">&#39;equal&#39;</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_900a6a9887f74e7c9303c09416e6c404/92d59920e7eeef59669775870780570b680f3db0.png" /></p>
+</div>
+</div>
+<section id="preprocessing-text" class="cell markdown"
+id="reGvRj-hvejc">
+<h1>Preprocessing-text</h1>
+<p>Convert to lower case, remove non alphabetic characters,
+Tokenization,remove stopwords, lemmatization and join tokens.</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Yh2ig1bJs5KP" data-outputId="01d3555b-a1d4-4f3c-d98f-8252006c6a68">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_text(text):</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    text <span class="op">=</span> text.lower()</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    text <span class="op">=</span> re.sub(<span class="vs">r&#39;[^a-z\s]&#39;</span>, <span class="st">&#39;&#39;</span>, text)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    tokens <span class="op">=</span> word_tokenize(text)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    stop_words <span class="op">=</span> <span class="bu">set</span>(stopwords.words(<span class="st">&#39;english&#39;</span>))</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    tokens <span class="op">=</span> [word <span class="cf">for</span> word <span class="kw">in</span> tokens <span class="cf">if</span> word <span class="kw">not</span> <span class="kw">in</span> stop_words]</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    lemmatizer <span class="op">=</span> WordNetLemmatizer()</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>    tokens <span class="op">=</span> [lemmatizer.lemmatize(word) <span class="cf">for</span> word <span class="kw">in</span> tokens]</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">&#39; &#39;</span>.join(tokens)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;processed_text&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;reviewDescription&#39;</span>].<span class="bu">apply</span>(preprocess_text)</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data[[<span class="st">&#39;reviewDescription&#39;</span>, <span class="st">&#39;processed_text&#39;</span>]].head(<span class="dv">20</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                                    reviewDescription  \
+0   Every thing is good about iPhones, there&#39;s not...   
+1   It look so fabulous, I am android user switche...   
+2   I tried to flip camera while recording but no ...   
+3                                        100% genuine   
+4          Happy to get the iPhone 13 in Amazon offer   
+5                                            5 star 👍   
+6   Great Product... Nothing to say, as the Name A...   
+7                                     Good product 😀💯   
+8                                        Nice product   
+9                                   Excellent product   
+10  My honest review after going broke buying this...   
+11                                               Nice   
+12  It’s a perfect iPhone I highly recommend this ...   
+13  What I like about this phone is that it is qui...   
+14  I bought the product little expensive. Within ...   
+15  Though we talk a lot about high price for iPho...   
+16  Works just fine nothing special the camera is ...   
+17                                           Loved it   
+18  There’s no same day delivery Phone was deliver...   
+19  My device is not working (switched off)Iam not...   
+
+                                       processed_text  
+0   every thing good iphones there nothing compare...  
+1   look fabulous android user switched apple perf...  
+2   tried flip camera recording facility added pau...  
+3                                             genuine  
+4                       happy get iphone amazon offer  
+5                                                star  
+6   great product nothing say name apple identity ...  
+7                                        good product  
+8                                        nice product  
+9                                   excellent product  
+10  honest review going broke buying depreciating ...  
+11                                               nice  
+12  perfect iphone highly recommend seller great p...  
+13  like phone quite reasonable comparing iphones ...  
+14  bought product little expensive within month p...  
+15  though talk lot high price iphones worth amoun...  
+16  work fine nothing special camera also good nig...  
+17                                              loved  
+18  there day delivery phone delivered day purchas...  
+19  device working switched offiam able download i...  
+</code></pre>
+</div>
+</div>
+<section
+id="tf-idf-vectorizer-transforms-the-processed-text-into-a-feature-matrix"
+class="cell markdown" id="ElmgbXUwvlez">
+<h1>TF-IDF vectorizer, transforms the processed text into a feature
+matrix</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="2YG9gWAqs8fR" data-outputId="8dd9e489-0a59-4ffb-bbf3-5398222831ea">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>tfidf <span class="op">=</span> TfidfVectorizer(max_features<span class="op">=</span><span class="dv">500</span>)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> tfidf.fit_transform(data[<span class="st">&#39;processed_text&#39;</span>]).toarray()</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Feature shape:&quot;</span>, X.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Feature shape: (2976, 500)
+</code></pre>
+</div>
+</div>
+<section id="balancing-dataset" class="cell markdown" id="QxGeLTY4CCS3">
+<h1>Balancing dataset</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="rWflhxMT84XG" data-outputId="8e902b1c-da84-4f5c-8293-0383e8ef9b79">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>le <span class="op">=</span> LabelEncoder()</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> le.fit_transform(data[<span class="st">&#39;sentiment&#39;</span>])</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>smote <span class="op">=</span> SMOTE(random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>X_resampled, y_resampled <span class="op">=</span> smote.fit_resample(X, y)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Resampled feature shape:&quot;</span>, X_resampled.shape)</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Resampled target shape:&quot;</span>, y_resampled.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Resampled feature shape: (5982, 500)
+Resampled target shape: (5982,)
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/utils/_tags.py:354: FutureWarning: The SMOTE or classes from which it inherits use `_get_tags` and `_more_tags`. Please define the `__sklearn_tags__` method, or inherit from `sklearn.base.BaseEstimator` and/or other appropriate mixins such as `sklearn.base.TransformerMixin`, `sklearn.base.ClassifierMixin`, `sklearn.base.RegressorMixin`, and `sklearn.base.OutlierMixin`. From scikit-learn 1.7, not defining `__sklearn_tags__` will raise an error.
+  warnings.warn(
+</code></pre>
+</div>
+</div>
+<section id="split-the-data-into-training-and-testing-sets"
+class="cell markdown" id="bGQzo2kLDqIl">
+<h1>Split the data into training and testing sets</h1>
+</section>
+<div class="cell code" id="ZlUUk2rsAYgx">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X_resampled, y_resampled, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<section id="standardscaler" class="cell markdown" id="s9kvzxxIDzdc">
+<h1>StandardScaler</h1>
+</section>
+<div class="cell code" id="JiNk25WvAaSS">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> scaler.fit_transform(X_train)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>X_test <span class="op">=</span> scaler.transform(X_test)</span></code></pre></div>
+</div>
+<section id="modling-and-training" class="cell markdown"
+id="OFP80as1n9oO">
+<h1>MODLING AND TRAINING</h1>
+</section>
+<div class="cell markdown" id="tJ3bit0pvsgc">
+<p>We will start by train and evaluate with basic models like
+LogisticRegression</p>
+</div>
+<section id="logisticregression-model" class="cell markdown"
+id="NCPT3kSPoZlt">
+<h2>LogisticRegression Model</h2>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="BK6C_ev_tHhE" data-outputId="9ed68742-4c5c-455b-e111-411e2c5d1fbe">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LogisticRegression()</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> model.score(X_test, y_test)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Model accuracy:&quot;</span>, accuracy)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model accuracy: 0.8446115288220551
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="qLxfSa3NokLa">
+<p>we got great accurcy on traditional model due to our data cleaning
+step</p>
+</div>
+<section id="randomforestclassifier" class="cell markdown"
+id="MJQhFqcRvwuI">
+<h2>RandomForestClassifier</h2>
+<p>We train and test the model using RandomForestClassifier, Traditional
+Method</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="o4Yr36nRtKUK" data-outputId="4f109dca-abbb-433e-c2b6-b566f447c5d9">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> RandomForestClassifier()</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> model.score(X_test, y_test)</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Model accuracy:&quot;</span>, accuracy)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model accuracy: 0.8939014202172096
+</code></pre>
+</div>
+</div>
+<section id="logistic-regression-confusion-matrix" class="cell markdown"
+id="zo8FaDq_CNBp">
+<h1>Logistic Regression confusion matrix</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="llwOH1F_Ah-a" data-outputId="488bc17b-04a5-4000-e8d7-b5b2c47134f0">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>logreg_model <span class="op">=</span> LogisticRegression()</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>logreg_model.fit(X_train, y_train)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>y_pred_logreg <span class="op">=</span> logreg_model.predict(X_test)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>cm_logreg <span class="op">=</span> confusion_matrix(y_test, y_pred_logreg)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>sns.heatmap(cm_logreg, annot<span class="op">=</span><span class="va">True</span>, fmt<span class="op">=</span><span class="st">&quot;d&quot;</span>, cmap<span class="op">=</span><span class="st">&quot;Blues&quot;</span>,</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>            xticklabels<span class="op">=</span>le.classes_, yticklabels<span class="op">=</span>le.classes_)</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Predicted&#39;</span>)</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Actual&#39;</span>)</span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Confusion Matrix - Logistic Regression&#39;</span>)</span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_900a6a9887f74e7c9303c09416e6c404/6cf0196cfce3a6c104ed90fb5cc2874e33270a17.png" /></p>
+</div>
+</div>
+<section id="random-forest-model-confusion-matrix" class="cell markdown"
+id="eqlFVnHsT2qh">
+<h1>Random Forest model confusion matrix</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="XKace-SCTuO8" data-outputId="257d9fa1-8d75-4d33-8316-1dc723fdf53b">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>rf_model <span class="op">=</span> RandomForestClassifier()</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>rf_model.fit(X_train, y_train)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>y_pred_rf <span class="op">=</span> rf_model.predict(X_test)</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>cm_rf <span class="op">=</span> confusion_matrix(y_test, y_pred_rf)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>sns.heatmap(cm_rf, annot<span class="op">=</span><span class="va">True</span>, fmt<span class="op">=</span><span class="st">&quot;d&quot;</span>, cmap<span class="op">=</span><span class="st">&quot;Blues&quot;</span>,</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>            xticklabels<span class="op">=</span>le.classes_, yticklabels<span class="op">=</span>le.classes_)</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Predicted&#39;</span>)</span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Actual&#39;</span>)</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Confusion Matrix - Random Forest&#39;</span>)</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_900a6a9887f74e7c9303c09416e6c404/2600a3a9f7e593ac6aca5412558d4f01334d63a2.png" /></p>
+</div>
+</div>
+<section id="distilroberta-model-advanced-model" class="cell markdown"
+id="d5zPIQrT0XwX">
+<h1>DistilRoBERTa Model: Advanced Model</h1>
+</section>
+<div class="cell code" id="mHS721jy0SwE">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>model_name <span class="op">=</span> <span class="st">&quot;distilroberta-base&quot;</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>tokenizer <span class="op">=</span> transformers.AutoTokenizer.from_pretrained(model_name)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>pd_train, pd_test <span class="op">=</span> train_test_split(data, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>label_encoder <span class="op">=</span> LabelEncoder()</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>pd_train[<span class="st">&#39;encoded_labels&#39;</span>] <span class="op">=</span> label_encoder.fit_transform(pd_train[<span class="st">&#39;sentiment&#39;</span>])</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>pd_test[<span class="st">&#39;encoded_labels&#39;</span>] <span class="op">=</span> label_encoder.transform(pd_test[<span class="st">&#39;sentiment&#39;</span>])</span></code></pre></div>
+</div>
+<section id="preprocessing-the-text" class="cell markdown"
+id="IbMIZawf07Kx">
+<h1>Preprocessing the Text</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:81,&quot;referenced_widgets&quot;:[&quot;f1320e53f26a49219afc80bb649c4364&quot;,&quot;9d0c65809ef943299878b5cc01648768&quot;,&quot;e585e73a451f48efbf468ee38943ba81&quot;,&quot;8ca0f749a84d449daaefa91584fb05be&quot;,&quot;fc6ca9925d404332a998f633f3e4df26&quot;,&quot;a126a0cf42464c0283c12c1b0489da53&quot;,&quot;ee65bc398c8d4c90a949e25d3a28134c&quot;,&quot;7a7b86332f454d33b3bb6ff6114be885&quot;,&quot;128aa22055a2406db96674ad72d7930d&quot;,&quot;57af269594c14e048a3c7390f82218ef&quot;,&quot;00cf0ec6f5de4a21889eda3b808c15ce&quot;,&quot;ac8060e24039488487ec31a10b9c5836&quot;,&quot;938961cb09d841989d43fab1c7e22960&quot;,&quot;c519cf9dc08449e784d1c2fc57c1483a&quot;,&quot;ef2c56850d5c47b09552774e8ca52b95&quot;,&quot;53abd08d42e34080935eb21f75bcfc13&quot;,&quot;437dbac836b14f1094502ea7d142860f&quot;,&quot;25f2196dc33f47ed9d3a8bd19b7a02d3&quot;,&quot;3ee704fc81fa4df58cdac9b8e426315e&quot;,&quot;0cb7f08a4cc34c9594f45504442d38d3&quot;,&quot;c28ce82af37b488ebe11b2d74c0566c5&quot;,&quot;49744b9a37ad4c85930ad5342570b320&quot;]}"
+id="q0imwRWw0z8x" data-outputId="d3e5158e-2572-44ed-fe48-abd4bfeaf2cd">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_function(examples):</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> tokenizer(examples[<span class="st">&quot;reviewDescription&quot;</span>], truncation<span class="op">=</span><span class="va">True</span>, padding<span class="op">=</span><span class="st">&quot;max_length&quot;</span>, max_length<span class="op">=</span><span class="dv">512</span>)</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>train_dataset <span class="op">=</span> Dataset.from_pandas(pd_train)</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>test_dataset <span class="op">=</span> Dataset.from_pandas(pd_test)</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>train_dataset <span class="op">=</span> train_dataset.<span class="bu">map</span>(preprocess_function, batched<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>test_dataset <span class="op">=</span> test_dataset.<span class="bu">map</span>(preprocess_function, batched<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>train_dataset <span class="op">=</span> train_dataset.rename_column(<span class="st">&quot;encoded_labels&quot;</span>, <span class="st">&quot;labels&quot;</span>)</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>test_dataset <span class="op">=</span> test_dataset.rename_column(<span class="st">&quot;encoded_labels&quot;</span>, <span class="st">&quot;labels&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;f1320e53f26a49219afc80bb649c4364&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;ac8060e24039488487ec31a10b9c5836&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<section id="model-initialization" class="cell markdown"
+id="hZeAyz3i1Gxt">
+<h1>Model Initialization</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="UglWH5LI1HKl" data-outputId="f7eaa1f9-8a16-44ea-fdd4-b517c916bb2f">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>data_collator <span class="op">=</span> transformers.DataCollatorWithPadding(tokenizer<span class="op">=</span>tokenizer)</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> transformers.AutoModelForSequenceClassification.from_pretrained(</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>    model_name,</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>    num_labels<span class="op">=</span><span class="bu">len</span>(pd_train[<span class="st">&#39;sentiment&#39;</span>].unique())</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: [&#39;classifier.dense.bias&#39;, &#39;classifier.dense.weight&#39;, &#39;classifier.out_proj.bias&#39;, &#39;classifier.out_proj.weight&#39;]
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+</code></pre>
+</div>
+</div>
+<section id="model-setup-and-arguments" class="cell markdown"
+id="wBAwSh4M1TVg">
+<h1>Model setup and Arguments</h1>
+</section>
+<div class="cell code" id="kmum0t2muaZ4">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> compute_metrics(eval_pred):</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>    logits, labels <span class="op">=</span> eval_pred</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    predictions <span class="op">=</span> np.argmax(logits, axis<span class="op">=-</span><span class="dv">1</span>)</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> metric.compute(predictions<span class="op">=</span>predictions, references<span class="op">=</span>labels)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6lph-iGW1T5V" data-outputId="851e5d31-948b-43ee-ebeb-ed95ab01af44">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>training_args <span class="op">=</span> transformers.TrainingArguments(</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>    output_dir<span class="op">=</span><span class="st">&quot;./results&quot;</span>,</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>    evaluation_strategy<span class="op">=</span><span class="st">&quot;steps&quot;</span>,</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>    learning_rate<span class="op">=</span><span class="fl">0.00002</span>,</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>    num_train_epochs<span class="op">=</span><span class="fl">1.5</span>,</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>    per_device_train_batch_size<span class="op">=</span><span class="dv">16</span>,</span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>    per_device_eval_batch_size<span class="op">=</span><span class="dv">16</span>,</span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>    weight_decay<span class="op">=</span><span class="fl">0.01</span>,</span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a>    logging_dir<span class="op">=</span><span class="st">&quot;./logs&quot;</span>,</span>
+<span id="cb38-10"><a href="#cb38-10" aria-hidden="true" tabindex="-1"></a>    logging_steps<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb38-11"><a href="#cb38-11" aria-hidden="true" tabindex="-1"></a>    save_steps<span class="op">=</span><span class="dv">500</span>,</span>
+<span id="cb38-12"><a href="#cb38-12" aria-hidden="true" tabindex="-1"></a>    load_best_model_at_end<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb38-13"><a href="#cb38-13" aria-hidden="true" tabindex="-1"></a>    fp16<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb38-14"><a href="#cb38-14" aria-hidden="true" tabindex="-1"></a>    gradient_accumulation_steps<span class="op">=</span><span class="dv">2</span>,</span>
+<span id="cb38-15"><a href="#cb38-15" aria-hidden="true" tabindex="-1"></a>    report_to<span class="op">=</span><span class="st">&quot;none&quot;</span>,</span>
+<span id="cb38-16"><a href="#cb38-16" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb38-17"><a href="#cb38-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-18"><a href="#cb38-18" aria-hidden="true" tabindex="-1"></a>trainer <span class="op">=</span> transformers.Trainer(</span>
+<span id="cb38-19"><a href="#cb38-19" aria-hidden="true" tabindex="-1"></a>    model<span class="op">=</span>model,</span>
+<span id="cb38-20"><a href="#cb38-20" aria-hidden="true" tabindex="-1"></a>    args<span class="op">=</span>training_args,</span>
+<span id="cb38-21"><a href="#cb38-21" aria-hidden="true" tabindex="-1"></a>    train_dataset<span class="op">=</span>train_dataset,</span>
+<span id="cb38-22"><a href="#cb38-22" aria-hidden="true" tabindex="-1"></a>    eval_dataset<span class="op">=</span>test_dataset,</span>
+<span id="cb38-23"><a href="#cb38-23" aria-hidden="true" tabindex="-1"></a>    tokenizer<span class="op">=</span>tokenizer,</span>
+<span id="cb38-24"><a href="#cb38-24" aria-hidden="true" tabindex="-1"></a>    data_collator<span class="op">=</span>data_collator,</span>
+<span id="cb38-25"><a href="#cb38-25" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/transformers/training_args.py:1575: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+&lt;ipython-input-104-54c31a80e2ab&gt;:18: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = transformers.Trainer(
+</code></pre>
+</div>
+</div>
+<section id="train-the-model" class="cell markdown" id="dTip4BmwyHN2">
+<h1>Train the model</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:494}"
+id="wvFtVfkS5jPi" data-outputId="259c1c54-0625-4910-804a-ecba20481ab7">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>trainer.train()</span></code></pre></div>
+<div class="output display_data">
+
+    <div>
+      
+      <progress value='111' max='111' style='width:300px; height:20px; vertical-align: middle;'></progress>
+      [111/111 01:23, Epoch 1/2]
+    </div>
+    <table border="1" class="dataframe">
+  <thead>
+ <tr style="text-align: left;">
+      <th>Step</th>
+      <th>Training Loss</th>
+      <th>Validation Loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10</td>
+      <td>1.064300</td>
+      <td>0.858013</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>0.904900</td>
+      <td>0.749367</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>0.800700</td>
+      <td>0.700468</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>0.723500</td>
+      <td>0.606346</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>0.612500</td>
+      <td>0.518543</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>0.561300</td>
+      <td>0.466044</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>0.507900</td>
+      <td>0.436428</td>
+    </tr>
+    <tr>
+      <td>80</td>
+      <td>0.474900</td>
+      <td>0.443484</td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>0.505800</td>
+      <td>0.459736</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>0.481700</td>
+      <td>0.426585</td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>0.493800</td>
+      <td>0.417470</td>
+    </tr>
+  </tbody>
+</table><p>
+</div>
+<div class="output stream stderr">
+<pre><code>Could not locate the best model at ./results/checkpoint-110/pytorch_model.bin, if you are running a distributed training on multiple nodes, you should activate `--save_on_each_node`.
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="105">
+<pre><code>TrainOutput(global_step=111, training_loss=0.6468986734613642, metrics={&#39;train_runtime&#39;: 83.7697, &#39;train_samples_per_second&#39;: 42.617, &#39;train_steps_per_second&#39;: 1.325, &#39;total_flos&#39;: 467883195936768.0, &#39;train_loss&#39;: 0.6468986734613642, &#39;epoch&#39;: 1.483221476510067})</code></pre>
+</div>
+</div>
+<section id="evaluate-the-model" class="cell markdown"
+id="5HPZ_H0dyIjG">
+<h1>Evaluate the model</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:126}"
+id="Mw6HMarmxis0" data-outputId="a36a9cf4-4338-42d6-9626-a7414a205dce">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>trainer.evaluate()</span></code></pre></div>
+<div class="output display_data">
+
+    <div>
+      
+      <progress value='38' max='38' style='width:300px; height:20px; vertical-align: middle;'></progress>
+      [38/38 00:02]
+    </div>
+    
+</div>
+<div class="output execute_result" data-execution_count="106">
+<pre><code>{&#39;eval_loss&#39;: 0.41733306646347046,
+ &#39;eval_runtime&#39;: 2.6682,
+ &#39;eval_samples_per_second&#39;: 223.375,
+ &#39;eval_steps_per_second&#39;: 14.242,
+ &#39;epoch&#39;: 1.483221476510067}</code></pre>
+</div>
+</div>
+<section id="distilroberta-confusion-matrix" class="cell markdown"
+id="8HJWNRDbYW-A">
+<h1>DistilRoBERTa confusion matrix</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:870}"
+id="s4ucGEXxA-hQ" data-outputId="779fcd1d-04c9-4d98-9f75-4a18a6d2dd19">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> trainer.predict(test_dataset)</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>predicted_labels <span class="op">=</span> np.argmax(predictions.predictions, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>cm_distilroberta <span class="op">=</span> confusion_matrix(test_dataset[<span class="st">&quot;labels&quot;</span>], predicted_labels)</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>sns.heatmap(cm_distilroberta, annot<span class="op">=</span><span class="va">True</span>, fmt<span class="op">=</span><span class="st">&quot;d&quot;</span>, cmap<span class="op">=</span><span class="st">&quot;Blues&quot;</span>,</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a>            xticklabels<span class="op">=</span>label_encoder.classes_, yticklabels<span class="op">=</span>label_encoder.classes_)</span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Predicted&#39;</span>)</span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Actual&#39;</span>)</span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Confusion Matrix - DistilRoBERTa&#39;</span>)</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(test_dataset[<span class="st">&quot;labels&quot;</span>], predicted_labels, target_names<span class="op">=</span>label_encoder.classes_))</span></code></pre></div>
+<div class="output display_data">
+
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_900a6a9887f74e7c9303c09416e6c404/18b0c9e5868b144493bb6bd1cf8a1ccb06415fab.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+    negative       0.73      0.90      0.80       138
+     neutral       0.00      0.00      0.00        44
+    positive       0.92      0.95      0.93       414
+
+    accuracy                           0.87       596
+   macro avg       0.55      0.62      0.58       596
+weighted avg       0.81      0.87      0.83       596
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f&quot;{metric.capitalize()} is&quot;, len(result))
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f&quot;{metric.capitalize()} is&quot;, len(result))
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f&quot;{metric.capitalize()} is&quot;, len(result))
+</code></pre>
+</div>
+</div>
+<section
+id="our-best-accuracy-for-distilroberta-is-087--unexpectedly-lower-than-traditional-models-this-may-because-we-need-to-run-bigger-advanced-model-like-bert-but-computing-power-does-not-support"
+class="cell markdown" id="d0e3s82tYe1x">
+<h2>Our best accuracy for DistilRoBERTa is 0.87 , unexpectedly lower
+than traditional models this may because we need to run bigger advanced
+model like bert but computing power does not support</h2>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="00AB6vHMasc-" data-outputId="78b7ff23-034c-48b5-c7b2-e63e03c5e7d6">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>model_results <span class="op">=</span> {</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Logistic Regression&quot;</span>: <span class="fl">0.84</span>,</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Random Forest&quot;</span>: <span class="fl">0.89</span>,</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;DistilRoBERTa&quot;</span>: <span class="fl">0.87</span></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>results_df <span class="op">=</span> pd.DataFrame.from_dict(model_results, orient<span class="op">=</span><span class="st">&quot;index&quot;</span>, columns<span class="op">=</span>[<span class="st">&quot;Accuracy&quot;</span>])</span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span>results_df.index, y<span class="op">=</span><span class="st">&quot;Accuracy&quot;</span>, data<span class="op">=</span>results_df)</span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Model&quot;</span>)</span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Accuracy&quot;</span>)</span>
+<span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Model Accuracy Comparison&quot;</span>)</span>
+<span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_900a6a9887f74e7c9303c09416e6c404/cd190cc9a2b0d484d6c07333230ea57e3e16018a.png" /></p>
+</div>
+</div>
+<section id="conclusion" class="cell markdown" id="3bldWjnqSAbO">
+<h1>Conclusion:</h1>
+<p>In this project we have applied successfully NLP pipline of sentiment
+analysis to classify customer reviews for Apple Iphone and this NLP
+pipeline contains the traditional method and the advanced like
+DistilRoBERTa , Random Forest and Logistic Regression has shown the best
+accuracy with differing scores in confusion matrix , in future work we
+can make more data cleaning and hypertuning and try bigger model like
+bert to get higher accuracy.</p>
+</section>
+<section
+id="reference-httpswwwkagglecomdatasetsmrmars1010iphone-customer-reviews-nlpdata"
+class="cell markdown" id="6d4YIHvUy4MS">
+<h1>Reference: <a
+href="https://www.kaggle.com/datasets/mrmars1010/iphone-customer-reviews-nlp/data"
+class="uri">https://www.kaggle.com/datasets/mrmars1010/iphone-customer-reviews-nlp/data</a></h1>
+</section>
+</body>
+</html>
